@@ -1,0 +1,31 @@
+{
+	"messageContext": {
+		"fiId": "999999",
+		"userList": {
+			"user": [
+				{
+					"userId": "{{.UserID}}",
+					"processorSessionId": "{{.ProcessorSessionID}}",
+					"userIdType": "FI_USER_ID"
+				}
+			]
+		},
+		"customData": {
+			"valuePair": [
+				{
+					"name": "securityToken",
+					"value": "{{.SecurityToken}}"
+				}
+			]
+		}
+	},
+	"applicationFilter": {
+		"applicationIdList": {
+			"applicationId": []
+		},
+		"applicationDateRange": {
+			"startDateTime": "{{.StartDateTime}}",
+			"endDateTime": "{{.EndDateTime}}"
+		}
+	}
+}

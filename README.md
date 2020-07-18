@@ -1,4 +1,10 @@
-# Gro data loader for getting data from online banking company Q2.
+# GRO data loader for getting data from online banking company Q2.
+
+Simple data loader from Q2 company GRO Web Application Server.
+It gets JSON data and store it in to the file. The reason for writing in Go so no
+any other dependencies has to be installed. It's only one executable file.
+It maybe easier to implement in Python but go with Python requires to install Python
+runtime and maintain it.
 
 ## Usage
 
